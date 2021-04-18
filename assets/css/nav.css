@@ -1,0 +1,117 @@
+
+nav.ui.menu{
+    margin: 0;
+    padding: 0.6%;
+}
+nav .ui.container {
+    width: 85%;
+    position: relative;
+}
+
+#logo-icon{
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    margin-top: -4px;
+}
+
+#subLogo {
+    color: #29c32f;
+    font-style: italic;
+}
+.ui.button.primary {
+    background-color: #29c32f !important;
+}
+
+.ui.menu i.search.icon {
+    color: #29c32f;
+}
+.ui.menu .logo {
+    font-size: 1.5em;
+    padding-top: 0.8%;
+}
+
+#courses-dropdown {
+    padding-top: 0.8%;
+    left: 8%;
+    color: grey;
+}
+
+.ui.search {
+    left: 15%;
+    width: 32%;
+}
+
+.ui.search .ui.icon.input{
+    width: 100%;
+}
+
+.ui.search .prompt{
+    border: 1px solid rgba(34, 36, 38, 0.25);
+    border-radius: 0;
+}
+
+.buttons{
+    position: absolute;
+    right: 0;
+}
+
+#uploadBtn {
+    position: absolute;
+    left: 75%;
+}
+
+#userDrop {
+    position: absolute;
+    right: 0;
+}
+ 
+.ui.menu .ui.pointing.dropdown{
+    padding: 5px;
+}
+
+nav .ui.menu .ui.icon.input {
+    margin-bottom: 0 !important;
+}
+
+#search-results{
+    background-color: #fff;
+}
+
+
+img.ui.avatar.image{
+    margin-top: -2px !important;
+}
+
+@media (max-width:768px) {
+    #signUpBtn,.ui.menu .ui.pointing.dropdown,.ui.search{
+        display: none;
+    }
+    .logo{
+        margin: 2%;
+    }
+    .buttons{
+        padding: 0.4%;
+    }
+    #userDrop {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    #uploadBtn {
+        position: absolute;
+        left: 45%;
+    }
+} 
+
+@media(max-width: 883px){
+    nav.ui.menu{
+        padding: 2%;
+    }
+    .ui.search{
+        display: none;
+    }
+}
+

@@ -1,0 +1,9 @@
+p, h1, h2, ul, li {
+    padding: 7px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}

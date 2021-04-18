@@ -1,0 +1,60 @@
+#heroArea {
+    width: 100%;
+    height: 90%;
+    background-image: url("../images/hero.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+
+.mainTitle {
+    padding-top: 15%;
+    text-align: center;
+}
+
+.mainTitle a {
+    color: #fff;
+}
+
+.mainTitle .button {
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+
+.mainTitle h1 {
+    font-size: 3em;
+}
+
+.mainTitle span {
+    font-style: italic;
+    color: #29c32f;
+}
+
+.subTitle {
+    margin-top: 2%;
+}
+
+.subTitle span {
+    font-size: 2em !important;
+    color: #fff !important;
+}
+
+@media(max-width: 883px){
+    .mainTitle h1 {
+        font-size: 2.5em;
+        margin-bottom: 5%;
+    }
+    .subTitle {
+        margin-bottom: 4%;
+    }
+    .subTitle span {
+        font-size: 1.5em !important;
+        color: #fff !important;
+    }
+    .mainTitle .button{
+        font-size: 1.1em;
+    }
+}

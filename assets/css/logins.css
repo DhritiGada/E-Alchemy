@@ -1,0 +1,100 @@
+body{
+    background-color: #f2f4f978;
+}
+#login{
+    margin-top: 5%;
+    height: 80%;
+}
+#login h2 {
+    text-align: center;
+}
+
+#login .ui.card {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#login form .field {
+    margin-bottom: 5% !important;
+}
+#register{
+    height: 100%;
+}
+#register .ui.card{
+    width: 85%;
+    margin: 0 auto;
+}
+#register .right form .field {
+    margin-bottom: 1.5% !important;
+}
+#register h2{
+    text-align: center;
+}
+button[type=submit] {
+    background-color: #29c32f !important;
+    color: #fff !important;
+    width: 100%;
+}
+
+.right a {
+    color: #29c32f;
+}
+
+#login .bottom {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 5%;
+}
+@media(max-width: 883px){
+    #login form .field{
+        margin-bottom: 7% !important;
+    }
+    #register .right form .field{
+        margin-bottom: 7% !important;
+    }
+    #login .ui.card {
+        width: 70%;
+        margin: 0 auto;
+    }
+    #register{
+        height: 160%;
+    }
+    #register .ui.card{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #rc-imageselect, .g-recaptcha {
+        transform: scale(0.77);
+        -webkit-transform: scale(0.77);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0; 
+    }
+}
+#register .right .bottom {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 3%;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    color: #29c32f !important;
+}
+
+.right .ui .message {
+    text-align: center;
+}
+
+#register {
+    margin: 3% 15%;
+}
+
+i.notched.circle.loading.icon{
+    color: #29c32f;
+    display: none;
+}
+i.check.icon{
+    color: #29c32f;
+    display: none;
+}
+

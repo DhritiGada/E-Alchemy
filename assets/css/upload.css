@@ -1,0 +1,33 @@
+.ui.container{
+    height: 100%;
+}
+.ui.container form {
+    margin-top: 45px;
+}
+
+.hidden {
+    display: none;
+}
+
+.ui.container #courseForm {
+    margin-top: 5%;
+}
+
+i.notched.circle.loading.icon {
+    color: #29c32f;
+    display: none;
+}
+
+i.check.icon {
+    color: #29c32f;
+    display: none;
+}
+
+#progressBar {
+    display: none;
+}
+@media (max-width:768px) {
+    .ui.container{
+        height: 260%;
+    }
+}

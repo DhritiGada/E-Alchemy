@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#myCourses {
+    background-color: #ededed;
+    height: 100%;
+    padding: 15px;
+}
+
+#myCourses h1 {
+    margin-top: 0;
+    font-style: italic;
+    color: #29c32f !important;
+}
+
+#myCourses .middle {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#myCourses .card:hover {
+    box-shadow: 0 0.5px 3px 0 #29c32f, 0 0 0 0.5px #29c32f !important;
+}
+
+#myCourses .card:hover .content .header {
+    color: #29c32f;
+}
+
+#myCourses .card:hover .extra.content {
+    background-color: #29c32f !important;
+}
+
+#myCourses .ui.link.cards {
+    margin-top: 10px;
+}
+
+#myCourses .ui.link.cards .card {
+    width: 250px;
+}
+
+#view-courses-btn{
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* courses page */
+
+#myCourses .extra.content {
+    background-color: #29c32fad !important;
+    color: #fff !important;
+    text-align: center;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+#head {
+    height: 80px;
+    padding: 1%;
+    background-color: #ededed;
+}
+
+#head h1 {
+    margin-top: 0;
+    font-style: italic;
+    color: #29c32f;
+    ;
+}
+
+#head .middle {
+    width: 1043px;
+    margin: 0 auto;
+    padding-top: 30px;
+}

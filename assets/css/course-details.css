@@ -1,0 +1,59 @@
+body {
+    background-color: #ededed;
+}
+
+.main .ui.container {
+    margin-top: 20px;
+}
+
+.main aside {
+    float: right;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.main .left {
+    float: left;
+    height: 700px;
+    width: 70%;
+}
+
+.main .ui.vertical.steps {
+    width: 100%;
+}
+
+.main .ui.button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.main .clearfix::after,
+.main .clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main img {
+    width: 100%;
+    height: 50%;
+}
+
+.main .ui.accordion .title {
+    color: #29c32f !important;
+    font-size: 1.3em !important;
+}
+
+.main .ui.accordion ul li {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.main h1.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4183c4;
+    text-shadow: 1px 1px #000;
+}
